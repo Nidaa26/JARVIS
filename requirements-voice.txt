@@ -1,0 +1,6 @@
+# Optional voice extras. The assistant runs fine without these (text mode).
+# macOS users do NOT need pyttsx3 (the built-in `say` command is used),
+# but it's harmless to install.
+SpeechRecognition>=3.10
+pyttsx3>=2.90
+PyAudio>=0.2.13
